@@ -1,0 +1,8 @@
+TOPICS =>
+
+1. html formatting
+2. HTML TABLES
+3. HTML LISTS
+4. linking external css file/ Style Tag
+5. linking external JS file/Script Tag
+6. HTML FORMS

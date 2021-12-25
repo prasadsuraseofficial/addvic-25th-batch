@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+body {
+	background: rgb(125, 209, 255);
+	background: linear-gradient(48deg, rgba(63,94,251,1) 0%, rgba(102,252,70,1) 100%);
+	font-family: 'Jost', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.centeredText {
+	text-align: center;
+}
+
+.justifyText {
+	text-align: justify;
+}
+
+/* this is changing the background to white. */
+ /* .backgroundWhite {
+	background-color: white;
+} */
+
+/* creating white box with border */
+.articleBox {
+	background-color: white;
+	border: 2px solid red;
+	
+	/* padding-left: 100px;
+	padding-top: 80px;
+	padding-bottom: 160px;
+	padding-right: 20px; */
+	
+	/* padding: 100px 50px; */
+	
+	/* padding: 20px 30px 40px 50px; */
+	
+	padding: 20px;
+	margin: 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+/* p {
+	font-family: 'Comforter', cursive;
+} */

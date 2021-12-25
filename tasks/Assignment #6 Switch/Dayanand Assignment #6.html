@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+<body>
+    <h1>Switch case in Javascript</h1>
+    <script>
+        let firstNumber = parseInt(prompt("Enter the first operand"))
+        let secondNumber = parseInt(prompt("Enter the second operand"))
+        let operator = prompt("Enter the operator:---Addition :+,Sub :-,Mul :*,Div :/,Mod :%,Power :**");
+
+switch(operator){
+    case "+":
+        // let addition = firstNumber + secondNumber;
+        document.write("Addition is : ",firstNumber + secondNumber);
+        break;
+        case "-":
+            let sub = firstNumber - secondNumber;
+            document.write(sub)
+        break;
+        case "*": 
+             let mul = firstNumber * secondNumber;
+            document.write(mul)
+        break;
+        case "/":
+            let div = firstNumber / secondNumber;
+            document.write(div)
+            break;
+        case "%":
+            let mod = firstNumber % secondNumber;
+            document.write(mod)
+        break;
+        case "**":
+            let pow = firstNumber ** secondNumber;
+            document.write(pow) 
+            break;
+            default:
+                document.write("Invalid input")
+ }
+let i = parseInt(prompt("Enter the Number"))
+
+for(i = 0; i<=20; i++){
+    if(i % 2 == 0)
+    document.write(i, "</br>")
+}
+
+    </script>
+</body>
+</html>

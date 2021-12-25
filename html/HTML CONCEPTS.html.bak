@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<title>HTML CONCEPTS</title>
+		<link rel="stylesheet" href="style.css" />
+		
+		<script src="script.js"></script>
+		
+	</head>
+	
+	<body>
+		<h1 id="heading">HTML CONCEPTS</h1>
+		
+		<h2>1. html text formatting</h2> 
+		<div>
+			<p>normal text - this is a sample paragraph.</p>
+			
+			<p>
+				1. bold - <b>this is a sample paragraph.</b>
+			</p>
+			
+			<p>
+				2. italic - <i>this is a sample paragraph.</i>
+			</p>
+			
+			<p>
+				3. strikethorugh - <strike>this is a sample paragraph.</strike>
+			</p>
+			
+			<p>
+				4. underline - <u>this is a sample paragraph.</u>
+			</p>
+			
+			<hr />
+			
+			<p>
+				5. strong (similar to bold) - <strong>this is a sample paragraph.</strong>
+			</p>
+			
+			<p>
+				6. emphasized -(similar to italic) - <em>this is a sample paragraph.</em>
+			</p>
+			
+		</div>
+		
+		<h2>2. HTML TABLES</h2>
+		<div>
+			<table border="1" >
+				<tr>
+					<th>STUDENT NAME</th>
+					<th>COLLEGE NAME</th>
+					<th>COURSE NAME</th>
+				</tr>
+				
+				<tr>
+					<td>Mithun</td>
+					<td>SIOM</td>
+					<td>MCA</td>
+				</tr>
+				
+				<tr>
+					<td>Mithun</td>
+					<td>SIOM</td>
+					<td>BCA</td>
+				</tr>
+				
+				<tr>
+					<td>Mithun</td>
+					<td>ZEAL</td>
+					<td>MCA</td>
+				</tr>
+				
+				<tr>
+					<td>Gauri</td>
+					<td>SIOM</td>
+					<td>MCA</td>
+				</tr>
+			</table>
+		</div>
+		
+		<h2>3. HTML LISTS</h2>
+		<div>
+		<!-- ordered list example -->
+			<h3>1. Ordered List -></h3>
+			<h4>Colors List : </h4>
+			<ol>
+				<li>Red</li>
+				<li>Green</li>
+				<li>Megenta</li>
+				<li>
+				Orange
+					<ol>
+						<li>hi</li>
+						<li>hi</li>
+					</ol>
+				</li>
+				<li>Blue</li>
+				<li>Yellow</li>
+			</ol>
+			
+			<!-- unordered list example -->
+			<h3>2. Unordered List -></h3>
+			<h4>Colors List : </h4>
+			<ul>
+				<li>Red</li>
+				<li>
+				Green
+					<ol>
+						<li>hi</li>
+						<li>hi</li>
+					</ol>
+				</li>
+				
+				<li>Megenta</li>
+				<li>
+				Orange
+					<ul>
+						<li>hi</li>
+						<li>hi</li>
+					</ul>
+				</li>
+				<li>Blue</li>
+				<li>Yellow</li>
+			</ul>
+		</div>
+		
+		<h2>4. linking external css file/ Style Tag</h2>
+		<h2>5. linking external JS file/Script Tag</h2>
+		<h2>6. HTML FORMS</h2>
+		<div>
+		
+			<form action="" method="POST" >
+				<h5>Register Yourself!</h5>
+				<input type="text" name="fullName" placeholder="Enter Your Name" required="true" />
+			
+				<br /><br />
+			
+				<input type="email" name="email" placeholder="Enter Your Email" />
+			
+				<br /><br />
+			
+				<input type="password" name="pass" placeholder="Enter New Password" required="true"/>
+				<br /><br />
+				
+				<input type="password" name="pass" placeholder="Enter Confirm Password" required />
+				<br /><br />
+			
+				<input type="submit" />
+			</form>
+			
+			<br />
+			
+		</div>
+		
+		<h2>7. WORKING WITH ANIMATED IMAGES</h2>
+		<img src="animation.gif" width="100%" />
+		
+		
+		<h2>8. WORKING WITH MEDIA</h2>
+		
+		<div>
+			<h3>1. Embeding Video On Webpage - </h3>
+			<video controls width="50%" autoplay loop >
+				<source src="C:\Users\prasa\Desktop\Marvel\IronMan1.mkv" />
+			</video>
+			
+			<h3>2. Embeding Video On Webpage - </h3>
+			<audio controlsautoplay>
+				<source src="lion.mp3" />
+			</audio>
+			
+			<h3>3. Embeding Youtube Videos - </h3>
+			<iframe src="https://www.youtube.com/embed/GWOEoWzLDIg" width="350px" height="250px"></iframe>
+			
+			<h3>4. Embed Another Website/Webpage Into Our Webpage - </h3>
+			<iframe src="https://zicflow.com" height="80%" width="100%" ></iframe>
+		</div>
+		
+	</body>
+</html>
+
+
+
+

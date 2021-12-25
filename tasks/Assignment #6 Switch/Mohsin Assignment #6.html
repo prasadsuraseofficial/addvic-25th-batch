@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web</title>
+
+
+</head>
+<body>
+ <script>
+
+
+    document.write("<h1>Calculator</h1>");
+
+     
+   
+    
+    let flag=prompt("Welcome ....! Enter ok for start else Enter  Quit ")
+   
+     
+      if(flag=="ok"||flag=="Quit"){
+
+   
+
+    switch (flag) {
+    case "Quit":
+    document.write("<h1>Exit</h2>");
+    break;
+
+
+
+    case "ok": 
+   
+    while(flag=="ok")
+                   {   
+    
+    
+    
+        
+    
+    let flag =prompt("Welcome ....! Enter ok for start else Enter  Quit ");
+    if( flag=="Quit"){
+        break;
+    }
+    else if (flag=="ok") {
+
+    let operator = prompt("Addtion=> + ,substraction=> -, multiplication=> *, division=> /") ;
+    let num1 =Number (prompt("Enter first Number"));
+    let num2 =Number (prompt("Enter second Number"));
+    
+    switch(operator){
+    case "+":
+     document.write("Addition is ",num1 + num2,"<br> " );
+     break;
+
+     case "-":
+     document.write("substraction is ", num1 - num2 ,"<br> ");
+     break;
+
+     case "*":
+     document.write("multiplication is ", num1 * num2 ,"<br> ");
+     break;
+
+     case "/":
+     document.write(" Division is ", num1 / num2 ,"<br> " );
+     break;
+
+     default:
+     document.write("Please Enter Valid Number","<br> ");  
+     
+    }
+
+
+} else {
+  document.write("Error..! Please Reload","<br> ");
+  }
+} }}
+else {
+  document.write("Error..! Please Reload","<br> ");
+  }
+
+    
+
+    
+
+
+
+
+
+    
+    
+
+ </script>   
+</body>
+</html>

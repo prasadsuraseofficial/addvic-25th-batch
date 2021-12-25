@@ -1,0 +1,35 @@
+1] use Strict =>
+--------------
+syntax =>
+
+"use strict";
+
+1. used to avoid potential bugs in the program.
+2. makes our code more predictable.
+3. gives error if we try to use any keyword which is reserved for future development. 
+i.e. can be added to javascript later on.
+4. also gives error if we use variables without declarations.
+
+2] functions =>
+---------------
+1. "function" keyword is used to declare a new function.
+2. function name is used along with parenthesis '()' in order to execute/call/run the code inside function.
+3. function can accept any number of parameters/arguments to take input data to use inside function.
+4. we can also use function without passing/having any parameters.
+5. 'return' keyword is used to return the value from function to calling program.
+i.e. to function call.
+6. we can assign the value returned by a function to a variable.
+7. we can call the function as many times as we want.
+8. function may or may not have the return keyword.. i.e. function may or may not return value.
+9. we use functions to write reusable code to avoid repetation of code.
+10. function works on the principle of 'DRY' [DON'T REPEAT YOURSELF!]
+
+FUN FACT : there are many functions that we use throughout our daily javascript programs.
+for e.g.
+	console.log();
+	alert();
+	document.write();
+	prompt(); & many more..!
+these all are javascript's inbuilt functions.
+ 
+

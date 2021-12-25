@@ -1,0 +1,98 @@
+/* * {
+    background-color: yellow;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+     /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+}
+
+div {
+    padding: 3rem 1rem;
+    margin: 1rem;
+    border: 2px solid red;
+    background-color: tomato;
+    width: 20%;
+    box-shadow: 3px 3px 5px rgb(61, 241, 37);
+}
+
+.boxContainer > div:first-child {
+    background-color: darkblue;
+    /* margin-left: 60rem; */
+    /* float: right;
+    float: left;
+    float: none; */
+}
+
+div:last-child {
+    background-color: rgb(48, 240, 10);
+}
+
+div:nth-child(3) {
+    background-color: darkgoldenrod;
+}
+
+/* --------------table formatting-------- */
+table {
+    width: 95%;
+    margin: 3rem 2rem 0 2rem;
+}
+
+tr:nth-child(1) {
+    background-color: rgb(139, 130, 0) !important;
+}
+
+tr:nth-child(even) {
+    background-color: darkturquoise;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(81, 2, 116);
+    color: white;
+}
+
+tr:hover {
+    background-color: white;
+    color: black;
+    /* font-size: small; */
+}
+
+.specialRow:hover {
+    background-color: tomato;
+}
+
+/* psuedo classes for anchor/links */
+#links {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:active {
+    color: hotpink;
+}

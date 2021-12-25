@@ -1,0 +1,45 @@
+<!-- 
+Assignment #8: write a JavaScript program to take input string from user and count the number of times a alphabet is repeated in the string and then print it on the screen.
+
+for e.g. if the input string is - prasad
+
+Your o/p should be like below -
+
+p - 1
+r - 1
+a - 2
+s - 1
+d - 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Number Of times alphabates repeated</title>
+</head>
+<body>
+    <script>
+        // let str=prompt("Enter The Valid String");
+        // // function count(sName){
+       
+        // for(let i=0;i<=str.length-1;i++){
+        //     document.write(str[i]+'</br>');
+        //     // for(let j=)
+
+        // }
+        var obj={}
+// var repeats=[];
+ let str=prompt("Enter the string")
+for(let i = 0, length = str.length; i < length; i++) {
+    var l = str.charAt(i)
+    obj[l] = (isNaN(obj[l]) ? 1 : obj[l] + 1);
+}
+
+console.log(obj)
+        
+    </script>
+    
+</body>
+</html>

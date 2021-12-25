@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //           var num = 0;
+        // while(num !== 8){
+        // num = parseInt(prompt("guess a number from 0 to 8"));
+        // }
+
+        // let operator = prompt("Enter Operator => addition =>+, Substraction =>-, Multiplication =>*, division =>/, Mod =.%, Power =>**,exit =>To left the process");
+        // let firstNumber = parseInt(prompt("Enter First Number"));
+        // let secondNumber = parseInt(prompt("Enter Second Number"));
+
+
+        while (operator !== "exit") {
+            var operator = prompt("Enter Operator => addition =>+, Substraction =>-, Multiplication =>*, division =>/, Mod =.%, Power =>**,exit =>To left the process");
+            var firstNumber = parseInt(prompt("Enter First Number"));
+            var secondNumber = parseInt(prompt("Enter Second Number"));
+
+            switch (operator) {
+                case "+":
+                    document.write("Addition Is :", firstNumber + secondNumber);
+                    break;
+                case "-":
+                    document.write("Substraction is :", firstNumber - secondNumber);
+                    break;
+                case "*":
+                    document.write("Multiplication is :", firstNumber * secondNumber);
+                    break;
+                case "/":
+                    document.write("Division is :", firstNumber / secondNumber);
+                    break;
+                case "%":
+                    document.write("Mod is :", firstNumber % secondNumber);
+                    break;
+                case "**":
+                    document.write("Power is :", firstNumber ** secondNumber);
+                    break;
+                case "exit":
+                    break;
+                    alert("You are exit from the process");
+                default:
+                    document.write("Something went wrong");
+            }
+
+        }
+        document.write("Exit")
+
+
+
+
+    </script>
+</body>
+
+</html>

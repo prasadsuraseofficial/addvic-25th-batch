@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number</title>
+</head>
+<body>
+    <script>
+        const snum1=Number(prompt("Enter the starting Number"));
+        const lnum2=Number(prompt("Enter the limit Number"));
+
+        function primeNum(num1,num2){
+            document.write(`The Prime Numbers Between ${num1} And ${num2} are as follows`+'</br>');
+          for(let i=num1;i<=num2;i++){
+            //   if(i!==0 ||i!==1)
+                let flag=0;
+                if(i==1 || i==0)
+                continue;
+                for(let j=2;j<i/2;j++){
+                    if(i%j==0){
+                        flag=1;
+                        break;
+                    }
+                }
+                if(flag==0){
+                    document.write(i+"<br/>");
+                }
+              }
+             
+          }
+
+        
+        primeNum(snum1,lnum2);
+
+    </script>
+    
+</body>
+</html>

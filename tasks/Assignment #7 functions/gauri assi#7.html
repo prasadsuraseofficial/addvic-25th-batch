@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+</head>
+<body>
+    <script>
+        
+        function primeNo(){
+            i = ""
+            let number1 = parseInt(prompt('Enter first number: '));
+            let number2 = parseInt(prompt('Enter second number: '));
+            document.write(`The prime numbers between ${number1} and ${number2} are : `);
+
+            for (let i = number1; i <= number2; i++) {
+                let flag = 0;
+
+                for (let j = 2; j < i; j++) {
+                    if (i % j == 0) {
+                        flag = 1;
+                        break;
+                    }
+                }
+
+                if (i > 1 && flag == 0) {
+                    document.write(`${i}\n`);
+                }
+            }
+            return (i);
+        }
+
+        result = primeNo();
+        document.write(result);
+
+    </script>
+</body>
+</html>

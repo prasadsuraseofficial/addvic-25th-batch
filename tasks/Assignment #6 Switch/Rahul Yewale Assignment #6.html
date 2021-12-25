@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No 6 </title>
+</head>
+<body>
+    <script>
+
+           
+            do{
+            var operator=prompt("Choose The Operation:=> +=>Addition, -=>substraction,*=>Multiplication,/=>Division,%=>Mod,**=>Power,exit=>Quite the program");
+            if(operator!="exit"){
+             var num1=parseFloat(prompt("Enter the First Number"));
+            var num2=parseFloat(prompt("Enter the Second Number"));
+
+            }
+           
+            switch(operator){
+            case "+":
+                document.write("Addition=",num1+num2+'</br>');
+                break;
+            case "-":
+                document.write("Substraction=",num1-num2+'</br>');
+                break;
+            case "*":
+                document.write("Multiplication=",num1*num2+'</br>');
+                break;
+            case "/":
+                document.write("Division=",num1/num2+'</br>');
+                break;
+            case "%":
+                document.write("Mod=",num1%num2+'</br>');
+                break;
+            case "**":
+                document.write("Power=",num1**num2+'</br>');
+                break;
+            case "exit":
+                document.write("Loop Terminated");
+                break;
+            default:
+                document.write("Invalid operator")
+            
+            
+
+        }
+    }while(operator!="exit");
+
+    </script>
+    
+</body>
+</html>

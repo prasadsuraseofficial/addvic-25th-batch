@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Learning CSS</title>
+		
+		<style>
+			.colors {
+				color: white !important;
+				background-color: black;
+				text-align: center;
+				padding: 10px;
+			}
+			
+			#special {
+				color: orange;
+				background-color: red;
+			}
+			
+			.special {
+				color: pink;
+				border: 8px dotted yellow;
+				border-bottom: 3px solid white;
+			}
+			
+			body {
+				background-color: darkblue;
+				color: white;
+			}
+			
+			p {
+				background-color: orange !important;
+				border: 2px solid white;
+				padding:10px; 
+				margin-bottom: 20px;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<h1 class="colors" id="special">Hello CSS 1...!</h1>
+		
+		<h1 class="colors special">Hello CSS 2...!</h1>
+		
+		<h1 class="colors">Hello CSS 3...!</h1>
+		
+		<h1 class="colors">Hello CSS 4...!</h1>
+		
+		<p>this is an normal paragraph. this is an normal paragraph. this is an normal paragraph. this is an normal paragraph.</p>
+		
+		<p>this is an normal paragraph. this is an normal paragraph. this is an normal paragraph. this is an normal paragraph.</p>
+		
+		<p style="background-color: purple">this is an normal paragraph. this is an normal paragraph. this is an normal paragraph. this is an normal paragraph.</p>
+		
+		<p>this is an normal paragraph. this is an normal paragraph. this is an normal paragraph. this is an normal paragraph.</p>
+		
+		<p>this is an normal paragraph. this is an normal paragraph. this is an normal paragraph. this is an normal paragraph.</p>
+		
+		<p>this is an normal paragraph. this is an normal paragraph. this is an normal paragraph. this is an normal paragraph.</p>
+	</body>
+
+</html>

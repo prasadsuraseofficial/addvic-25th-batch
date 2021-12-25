@@ -1,0 +1,113 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.box1, .box2, .box3, .box4 {
+    background-color: rgb(51, 0, 44);
+    border: 2px dashed orange;
+    margin: 0.6rem;
+    padding: 2rem;
+    color: white;
+    height: 8rem;
+    overflow-y: scroll;
+    /* display: flex; */
+}
+
+.special {
+    color: black;
+}
+
+.box1 > p {
+    display: inline;
+}
+
+.box2 > span {
+    display: block;
+}
+
+.box3 > p {
+    display: inline-block;
+}
+
+
+#hideThis {
+    /* display: none; */
+    visibility: hidden;
+}
+
+/* position property */
+.box1 {
+    /* position: static; */
+    /* ---------------------- */
+    /* left/right/bottom/top */
+    
+    /* position: relative;
+    left: 20rem;
+    top: 5rem; */
+
+    /* position: relative; */
+
+    /* position: fixed; */
+    /* position: sticky; */
+}
+
+/* #relativeP {
+    position: absolute;
+    background-color: white;
+    top: 5rem;
+    right: 5rem;
+} */
+
+.navbar {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    padding: 1rem;
+    /* position: fixed; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.navbar > li {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+/* .box1 {
+    margin-top: 7rem;
+} */
+
+
+/* ---------------z-index----------------- */
+.block1, .block2 {
+    background-color: rgb(2, 0, 2);
+    border: 2px dotted orange;
+    margin: 0.6rem;
+    padding: 2rem;
+    color: white;
+}
+
+.block1 {
+    position: relative;
+    z-index: 0 !important;
+}
+
+.block2 {
+    background-color: brown;
+    margin-top: -5rem;
+    margin-left: 5rem;
+}
+
+/* -----------overflow------------- */
+.longDiv {
+    width: 90%;
+}
+

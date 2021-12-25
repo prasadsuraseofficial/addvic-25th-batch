@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>CSS Day 2</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+		<h1 class="centeredText">My News Portal</h1>
+		
+		<div class="articleBox">
+			<h2>
+				<a href="https://timesofindia.indiatimes.com/india/coronavirus-live-updates-india-and-world-november-30/liveblog/87992315.cms" target="_blank">Coronavirus live updates: Serum Institute seeks DCGI's approval for Covishield as booster dose</a>
+			</h2>
+			
+			<p class="justifyText"> NEW DELHI : dose citing adequate stock of the vaccine in the country and a demand for a booster shot due to the emergence of new coronavirus variants, official sources said.
+
+			Prakash Kumar Singh, the Director, Government and Regulatory Affairs at Serum Institute of India (SII) cited that the UK's Medicines and Healthcare products Regulatory Agency has already approved the booster dose of AstraZeneca ChAdOx1 nCoV-19 vaccine, they said. 			
+			</p>
+		</div>
+		
+		<div class="articleBox">
+			<h2>
+				<a href="https://www.moneycontrol.com/news/india/covid-19-maharashtra-makes-rt-pcr-test-compulsory-for-domestic-travellers-due-to-new-omicron-variant-7779311.html" target="_blank">COVID-19 | Maharashtra makes RT-PCR test compulsory for domestic travellers due to new Omicron variant</a>
+			</h2>
+			
+			<p class="justifyText">this is my paragraph for which I want to use the same css class to make it center. this is my paragraph for which I want to use the same css class to make it center.this is my paragraph for which I want to use the same css class to make it center.this is my paragraph for which I want to use the same css class to make it center. this is my paragraph for which I want to use the same css class to make it center. this is my paragraph for which I want to use the same css class to make it center.this is my paragraph for which I want to use the same css class to make it center.this is my paragraph for which I want to use the same css class to make it center.
+			</p>
+		</div>
+		
+		<div class="articleBox">
+			<h2>
+				<a href="https://timesofindia.indiatimes.com/india/serum-institute-seeks-dcgis-approval-for-covishield-as-booster-dose/articleshow/88033576.cms" target="_blank">Serum Institute seeks DCGI's approval for Covishield as boos</a>
+			</h2>
+			
+			<p class="justifyText">this is my paragraph for which I want to use the same css class to make it center. this is my paragraph for which I want to use the same css class to make it center.this is my paragraph for which I want to use the same css class to make it center.this is my paragraph for which I want to use the same css class to make it center. this is my paragraph for which I want to use the same css class to make it center. this is my paragraph for which I want to use the same css class to make it center.this is my paragraph for which I want to use the same css class to make it center.this is my paragraph for which I want to use the same css class to make it center.
+			</p>
+		</div>
+		
+		
+	</body>
+</html>

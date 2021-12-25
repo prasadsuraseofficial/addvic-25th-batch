@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-6</title>
+
+    <style>
+        body {
+
+            background: linear-gradient(34deg, rgba(21, 237, 227, 1) 0%, rgba(12, 236, 211, 1) 0%, rgba(190, 45, 172, 1) 100%, rgba(27, 236, 8, 1) 100%, rgba(219, 96, 209, 1) 100%, rgba(195, 45, 196, 1) 100%);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(0, 255, 64);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Assignment-6</h1>
+
+    <script>
+
+        // Using switch case  
+
+        /*
+                let sign = prompt("Enter the sign between-  + => addition, - => substraction, * => multiplication, / => division, % => mod, ** => power")
+                let firstNumber = Number(prompt("Enter the first number"));
+                let secondNumber = Number(prompt("Enter the second number"));
+        
+                switch (sign) {
+                    case "+":
+                        document.write("Addition of ", firstNumber, " and ", secondNumber, " =", firstNumber + secondNumber,"<br/>");
+                        break;
+                    case "-":
+                        document.write("Substraction of ", firstNumber, " and ", secondNumber, " =", firstNumber - secondNumber,"<br/>");
+                        break;
+                    case "*":
+                        document.write("Multiplication of ", firstNumber, " and ", secondNumber, " =", firstNumber * secondNumber,"<br/>");
+                        break;
+                    case "/":
+                        document.write("Division of ", firstNumber, " and ", secondNumber, " =", firstNumber / secondNumber,"<br/>");
+                        break;
+                    case "%":
+                        document.write("Mod of ", firstNumber, " and ", secondNumber, " =", firstNumber % secondNumber,"<br/>");
+                        break;
+                    case "**":
+                        document.write("Power of ", firstNumber, " and ", secondNumber, " =", firstNumber ** secondNumber,"<br/>");
+                        break;
+                    case "exit":
+                        document.write("You are exited........!");
+                        break;
+                    case "Exit":
+                        document.write("You are exited........!");
+                        break;
+                    case "EXIT":
+                        document.write("You are exited........!");
+                        break;
+                    default:
+                        document.write("Enter the valid sign");
+                   
+                }
+                 
+                
+*/
+
+        // While Loop:-
+
+        let sign = prompt("Enter the sign between-  + => addition, - => substraction, * => multiplication, / => division, % => mod, ** => power");
+        let firstNumber = parseInt(prompt("Enter the first number"));
+        let secondNumber = parseInt(prompt("Enter the second number"));
+
+
+        let i = 0;
+        while (i <= firstNumber && i <= secondNumber) {
+            if (sign === "+") {
+
+                document.write("Addition of ", firstNumber, " and ", secondNumber, " =", firstNumber + secondNumber, "<br/>");
+
+            }
+            else if (sign === "-") {
+                document.write("Sustraction of ", firstNumber, " and ", secondNumber, " =", firstNumber - secondNumber, "<br/>");
+            }
+            else if (sign === "*") {
+                document.write("Multiplication of ", firstNumber, " and ", secondNumber, " =", firstNumber * secondNumber, "<br/>");
+            }
+            else if (sign === "/") {
+                document.write("Division of ", firstNumber, " and ", secondNumber, " =", firstNumber / secondNumber, "<br/>");
+            }
+            else if (sign === "%") {
+                document.write("Mod of ", firstNumber, " and ", secondNumber, " =", firstNumber % secondNumber, "<br/>");
+            }
+            else if (sign === "**") {
+                document.write("Power of ", firstNumber, " and ", secondNumber, " =", firstNumber ** secondNumber, "<br/>");
+            }
+            else if (sign === "Exit") {
+                document.write("You are exited.......!<br/>");
+                break;
+            }
+            else if (sign === "EXIT") {
+                document.write("You are exited.......!<br/>");
+                break;
+            }
+            else if (sign === "exit") {
+                document.write("You are exited.......!<br/>");
+                break;
+            }
+            else {
+                document.write("Enter the valid sign....<br/>")
+            }
+            sign = prompt("Enter the sign between-  + => addition, - => substraction, * => multiplication, / => division, % => mod, ** => power");
+            firstNumber = parseInt(prompt("Enter the first number"));
+            secondNumber = parseInt(prompt("Enter the second number"));
+
+            i++;
+
+        }
+        alert("please enter all values..........!");
+
+
+
+        // do-while loop
+        /*
+                let sign = prompt("Enter the sign between-  + => addition, - => substraction, * => multiplication, / => division, % => mod, ** => power");
+                let firstNumber = parseInt(prompt("Enter the first number"));
+                let secondNumber = parseInt(prompt("Enter the second number"));
+        
+        
+                let i = 0;
+                do {
+                    
+                    if (sign === "+") {
+        
+                        document.write("Addition of ", firstNumber, " and ", secondNumber, " =", firstNumber + secondNumber, "<br/>");
+        
+                    }
+                    else if (sign === "-") {
+                        document.write("Sustraction of ", firstNumber, " and ", secondNumber, " =", firstNumber - secondNumber, "<br/>");
+                    }
+                    else if (sign === "*") {
+                        document.write("Multiplication of ", firstNumber, " and ", secondNumber, " =", firstNumber * secondNumber, "<br/>");
+                    }
+                    else if (sign === "/") {
+                        document.write("Division of ", firstNumber, " and ", secondNumber, " =", firstNumber / secondNumber, "<br/>");
+                    }
+                    else if (sign === "%") {
+                        document.write("Mod of ", firstNumber, " and ", secondNumber, " =", firstNumber % secondNumber, "<br/>");
+                    }
+                    else if (sign === "**") {
+                        document.write("Power of ", firstNumber, " and ", secondNumber, " =", firstNumber ** secondNumber, "<br/>");
+                    }
+                    else if (sign === "Exit") {
+                        document.write("You are exited.......!<br/>");
+                        break;
+                    }
+                    else if (sign === "EXIT") {
+                        document.write("You are exited.......!<br/>");
+                        break;
+                    }
+                    else if (sign === "exit") {
+                        document.write("You are exited.......!<br/>");
+                        break;
+                    }
+                    else {
+                        document.write("Enter the valid sign....<br/>")
+                    }
+                    sign = prompt("Enter the sign between-  + => addition, - => substraction, * => multiplication, / => division, % => mod, ** => power");
+                    firstNumber = parseInt(prompt("Enter the first number"));
+                    secondNumber = parseInt(prompt("Enter the second number"));
+                    
+        
+                    i++;
+                    
+        
+        
+        
+                } while (i <= firstNumber && i <= secondNumber);
+        */
+    </script>
+
+</body>
+
+</html>

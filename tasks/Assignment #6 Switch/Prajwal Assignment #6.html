@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+            // let operator = number(prompt("+,-,*,/,%,**,exit"));
+            // var num1;
+            // var num2;
+            // if (operator == "exit") {
+            //     document.write("Exit")
+            // }
+            // else {
+            // 
+            //     while(i !== "exit") {
+            //         // operator = prompt("+,-,*,/,%,**,exit");
+            //         num1 = prompt("Enter Num 1");
+            //         num2 = prompt("Enter Num 2");
+            //         switch (operator) {
+            //             case "+": document.writeln("<h1>The Addition is " + (num1 + num2));
+            //                 break;
+            //             case "-": document.writeln("<h1>The Subtraction is " + (num1 - num2));
+            //                 break;
+            //             case "*": document.writeln("<h1>The Multiplication is " + (num1 * num2));
+            //                 break;
+            //             case "/": document.writeln("<h1>The division is " + (num1 / num2));
+            //                 break;
+            //             case "**": document.writeln("<h1>The Power is " + (num1 ** num2));
+            //                 break;
+            //             case "%": document.writeln("<h1>The Modulus is " + (num1 % num2));
+            //                 break;
+            //                 // i++;
+            //         }
+            //         i++;
+            //     }
+            // // }
+
+
+            
+
+            do{
+                var num1=parseInt(prompt("Enter First Number: "));
+                var num2=parseInt(prompt("Enter Second Number: "));
+                var operator=prompt("Press '+' for Addition, Press '-' for Substraction, '*' to Multiply and '/' for Division '**' for Exponential and '%' for Modulus 'exit' for Exit" );
+            
+                switch (operator){
+            case "+": document.write("<h1>The Addition is "  + (num1+num2));
+            break;
+            case "-": document.write("<h1>The Subtraction is "  + (num1-num2));
+            break;
+            case "*": document.write("<h1>The Multiplication is "  + (num1*num2));
+            break;
+            case "/": document.write("<h1>The division is "  + (num1/num2));
+            break;
+            case "**": document.write("<h1>The Power is "  + (num1**num2));
+            break;
+            case "%": document.write("<h1>The Modulus is "  + (num1%num2));
+            break;
+            // case "exit": document.write("Exit");
+            // default: document.write("<h1>Please Enter Valid Input</h1>");
+             
+        }
+        }
+            
+        while(operator!=="exit"){
+            //  var operator=prompt("Press '+' for Addition, Press '-' for Substraction, '*' to Multiply and '/' for Division '**' for Exponential and '%' for Modulus 'exit' for Exit" );
+            //  var num1=parseInt(prompt("Enter First Number: "));
+            //  var num2=parseInt(prompt("Enter Second Number: "));
+        
+        document.write("Exit");
+        }
+                
+            
+    </script>
+</body>
+
+</html>

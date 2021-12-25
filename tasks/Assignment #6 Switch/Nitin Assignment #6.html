@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Nitin-Jadhav"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While & If else task</title>
+    <script>
+            let signMenu=prompt("Menu=> For Addition press -> +, for Subtraction press -> - , for Multiplication press ->* , for Division press -> / , for mod press-> % ,for power press -> ** and for exit this loop type -> exit ");
+
+            let num1;
+            let num2;
+
+        while(signMenu!="exit"){
+            if(signMenu=="+"){
+            
+             num1=Number(prompt("Enter first number"));
+             num2=Number(prompt("Enter second number"));
+
+            document.write("Addition is = ");
+         document.write(num1+num2);
+         document.write("<br/>")
+         signMenu=prompt("Menu=> For Addition press -> +, for Subtraction press -> - , for Multiplication press ->* , for Division press -> / , for mod press-> % ,for power press -> ** and for exit this loop type -> exit ");
+
+        }else if(signMenu=="-"){
+            num1=Number(prompt("Enter first number"));
+             num2=Number(prompt("Enter second number"));
+
+             document.write("Subtraction is = ");
+                document.write(num1-num2);
+                document.write("<br/>")
+                signMenu=prompt("Menu=> For Addition press -> +, for Subtraction press -> - , for Multiplication press ->* , for Division press -> / , for mod press-> % ,for power press -> ** and for exit this loop type -> exit ");
+
+        }
+        else if(signMenu=="*"){
+            num1=Number(prompt("Enter first number"));
+             num2=Number(prompt("Enter second number"));
+
+             document.write("Multiplication is = ");
+                document.write(num1*num2);
+                document.write("<br/>")
+                signMenu=prompt("Menu=> For Addition press -> +, for Subtraction press -> - , for Multiplication press ->* , for Division press -> / , for mod press-> % ,for power press -> ** and for exit this loop type -> exit ");
+
+        }
+        else if(signMenu=="/"){
+            num1=Number(prompt("Enter first number"));
+             num2=Number(prompt("Enter second number"));
+
+             document.write("Division is = ");
+                document.write(num1/num2);
+                document.write("<br/>")
+                signMenu=prompt("Menu=> For Addition press -> +, for Subtraction press -> - , for Multiplication press ->* , for Division press -> / , for mod press-> % ,for power press -> ** and for exit this loop type -> exit ");
+
+        }
+        else if(signMenu=="%"){
+                num1=Number(prompt("Enter first number"));
+                num2=Number(prompt("Enter second number"));
+
+                document.write("Mod is = ");
+                document.write(num1%num2);
+                document.write("<br/>")
+                signMenu=prompt("Menu=> For Addition press -> +, for Subtraction press -> - , for Multiplication press ->* , for Division press -> / , for mod press-> % ,for power press -> ** and for exit this loop type -> exit ");
+        }
+        else if(signMenu=="**"){
+                num1=Number(prompt("Enter first number"));
+                num2=Number(prompt("Enter second number"));
+
+                document.write("Power is = ");
+                document.write(num1+num2);
+                document.write("<br/>")
+                signMenu=prompt("Menu=> For Addition press -> +, for Subtraction press -> - , for Multiplication press ->* , for Division press -> / , for mod press-> % ,for power press -> ** and for exit this loop type -> exit ");
+
+        }
+        else if(signMenu=="exit"){break;
+
+        }
+        else{
+            alert("enter correct sign");
+            break;
+        }
+        }
+        document.write("<br/>")
+        document.write("Program End")
+
+
+    </script>
+</head>
+<body>
+    <h1>While & If else task 6</h1>
+    
+</body>
+</html>

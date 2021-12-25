@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    <style>
+       body{
+           background-color: rgba(248, 11, 122, 0.815);
+       }
+        h1,
+        h3 {
+            text-align: center;
+            color: rgb(0, 255, 64);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FUNCTIONS</h1>
+    <h3>Prime Numbers</h3>
+    <script>
+        
+        // By Using Parameters 
+
+        // accepting two numbers from user(start and end)
+        let firstNumber = parseFloat(prompt("Enter first number:"));
+        let secondNumber = parseFloat(prompt("Enter second number:"));
+
+        // Validation for user Input
+
+        if(firstNumber<0 && secondNumber<0){
+            alert("Please enter the valid values");
+        }
+        else if(firstNumber>=0 && secondNumber>=0){
+            alert("Your result is ready! click OK.......!");
+        }
+        else{
+            alert("Please enter the both values........");
+        }
+
+        
+        var total=0;
+        
+        document.write(`The prime numbers between ${firstNumber} and ${secondNumber} are:`);
+    
+        //writing function to print prime numbers
+        function primeNumber(firstNumber, secondNumber) {
+            for (let i = firstNumber; i <= secondNumber; i++) {
+                let count = 0;
+                
+                
+                for (let j = 2; j < i; j++) {
+                    if (i % j == 0) {
+                        count++;
+                        break;
+                    }
+                }
+                if (i > 1 && count == 0) {
+                    document.write("<br/>" + i);  //printing prime numbers on the document
+                    total++;
+                    
+                }
+                
+            }
+            // printing total of prime number between given range
+            document.write(`<br/><br/>Total prime numbers between ${firstNumber} and ${secondNumber} are:   ${total}`);
+
+
+        }
+        primeNumber(firstNumber, secondNumber);
+       
+       
+        /*
+        // Without  Parameters 
+
+
+         // accepting two numbers from user(start and end)
+        let firstNumber = parseFloat(prompt("Enter first number:"));
+        let secondNumber = parseFloat(prompt("Enter second number:"));
+
+        // Validation for user Input
+
+        if(firstNumber<0 && secondNumber<0){
+            alert("Please enter the valid values");
+        }
+        else if(firstNumber>=0 && secondNumber>=0){
+            alert("Your result is ready! click OK.......!");
+        }
+        else{
+            alert("Please enter the both values........");
+        }
+
+        
+        var total=0;
+        
+        document.write(`The prime numbers between ${firstNumber} and ${secondNumber} are:`);
+    
+        //writing function to print prime numbers
+        function primeNumber() {
+            for (let i = firstNumber; i <= secondNumber; i++) {
+                let count = 0;
+                
+                
+                for (let j = 2; j < i; j++) {
+                    if (i % j == 0) {
+                        count++;
+                        break;
+                    }
+                }
+                if (i > 1 && count == 0) {
+                    document.write("<br/>" + i);  //printing prime numbers on the document
+                    total++;
+                    
+                }
+                
+            }
+            // printing total of prime number between given range
+            document.write(`<br/><br/>Total prime numbers between ${firstNumber} and ${secondNumber} are:   ${total}`);
+
+
+        }
+        primeNumber();
+
+        */
+
+
+    </script>
+</body>
+
+</html>

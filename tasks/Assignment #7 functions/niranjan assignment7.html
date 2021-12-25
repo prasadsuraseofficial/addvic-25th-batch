@@ -1,0 +1,53 @@
+<DOCTYPE html>
+        <html lang="en">
+            <head>
+                <title> JAVASCRIPT TASK 6</title>
+                <style>
+                    body{
+                            background-color: rgb(211, 226, 225);
+                        }
+                </style>
+
+                <script>
+
+                 let start = parseFloat(prompt("Enter start number"));
+                 let end = parseFloat(prompt("Enter end number"));
+
+                document.write(`The prime numbers between ${start} and ${end} are:`);
+
+                function primeNumber(start, end){
+
+                
+                for (let i = start; i <= end; i++) {
+                    let flag = 0;
+
+                   
+                    for (let j = 2; j < i; j++) {
+                        if (i % j == 0) {
+                            flag = 1;
+                            break;
+                        }
+                    }
+
+                    
+                    if (i > 1 && flag == 0) {
+                        document.write(i);
+                       document.write("<br>");
+                    }
+                }
+                
+            }
+            primeNumber(start, end)
+
+
+
+
+                </script>
+                 </head>
+
+                 <body>
+                     
+
+                 
+                         
+                 </body>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let firstnumber = parseInt(prompt("Enter First Number : "));
+      let lastnumber = parseInt(prompt("Enter Second Number : "));
+
+      for (let i = firstnumber; i <= lastnumber; i++) {
+        let demo = 0;
+
+        for (let j = 2; j < i; j++) {
+          if (i % j == 0) {
+            demo = 1;
+            break;
+          }
+        }
+        if (i > 1 && demo == 0) {
+          console.log(i);
+        }
+      }
+    </script>
+  </body>
+</html>

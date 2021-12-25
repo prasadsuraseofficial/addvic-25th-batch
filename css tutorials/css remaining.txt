@@ -1,0 +1,57 @@
+IDE - INTEGRATED DEVELOPMENT ENVIRNMENT
+
+1. border radius
+2. box-shadow
+3. height
+4. width
+5. min height/min width
+6. max height/max width
+7. outline
+8. font weight
+9. styling lists
+---------------------------------------
+10. display
+	-> flex
+	-> block
+	-> inline
+	-> inline-block
+	-> none
+
+11. position
+	-> static
+	-> relative
+	-> absolute
+	-> fixed
+	-> sticky
+
+12. z-index
+
+13. overflow
+
+---------------------------------------------
+
+14. float
+
+15. pseudeo classes - hover, link, visited, active, first-child, last-child, nth-child(even), nth-child(odd)
+
+16. opacity
+
+17. attribute selectors e.g. type=[text]
+
+18. CSS units - px, %, em, rem, vh, vw
+
+19. math functions - calc, min, max
+-------------------------------------------
+20. word spacing
+21. line spacing/height
+22. favicon
+23. adding search icon in input field.
+------------------------------------------
+# RESPONSIVE DESIGN
+1. flex/flexbox [done]
+2. @media query
+3. grid
+
+
+MONDAY -> IIIIIIII
+TODAY -> II
